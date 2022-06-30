@@ -1,0 +1,28 @@
+.ıtem {
+  height: 90px;
+  background-color: peachpuff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+.card-image {
+  width: 65%;
+  height: 70px;
+  transition: transform 0.3sn ease-out;
+}
+.ıtem:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 9px 2px #2b24b2;
+}
+.ıtem:hover .card-logo {
+  transform: scale(1.15);
+}
+.list {
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 500;
+  list-style-position: outside;
+  padding-left: 15px;
+}
