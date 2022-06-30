@@ -7,7 +7,7 @@ const Card = () => {
     <div className="card-container">
       <h1 className="card-header">Languages</h1>
       <div className="card-item">
-        {languages.map((item, index) => {
+        {languages.map((item) => {
           return <Item card={item} />;
         })}
       </div>
